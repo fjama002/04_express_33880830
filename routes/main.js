@@ -4,11 +4,11 @@ const router = express.Router();
 
 // Handle the main routes
 
-router.get("/", (req, res) => res.send("Hello World!")); 
+router.get("/welcome", (req, res) => res.send('<h1>Welcome</h1>')); 
 
-router.get("/about", (req, res) => res.send ("<h1>This is the about page</h1>"));
+router.get("/about", (req, res) => res.send ('<h1>This is the about page</h1>'));
 
-router.get('/contact', (req, res) => res.send('<h1>Contact me</h1>'))
+router.get('/contact', (req, res) => res.send('<h1>This is the contact page</h1>'))
 
 // Gets the current date and time
 const date = new Date();
