@@ -1,0 +1,4 @@
+home=http://www.doc.gold.ac.uk/usr/458/welcome
+about=http://www.doc.gold.ac.uk/usr/458/about
+contact=http://www.doc.gold.ac.uk/usr/458/contact
+date=http://www.doc.gold.ac.uk/usr/458/date
